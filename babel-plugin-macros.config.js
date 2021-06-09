@@ -1,13 +1,13 @@
 module.exports = {
   twin: {
-    preset: "styled-components",
+    preset: 'styled-components',
     styled: {
-      import: "default",
-      from: "styled-components",
+      import: 'default',
+      from: 'styled-components',
     },
     css: {
-      import: "css",
-      from: "styled-components",
+      import: 'css',
+      from: 'styled-components',
     },
   },
-};
+}
