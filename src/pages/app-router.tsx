@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 import { Dashboard } from './dashboard'
-import { Start } from './start'
+import { LoginPage } from './login-page'
 
 export const AppRouter = (): JSX.Element => {
   return (
@@ -11,7 +11,7 @@ export const AppRouter = (): JSX.Element => {
           <Dashboard />
         </Route>
         <Route path="/">
-          <Start />
+          <LoginPage />
         </Route>
       </Switch>
     </BrowserRouter>

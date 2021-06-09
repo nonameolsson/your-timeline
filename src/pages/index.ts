@@ -1,3 +1,3 @@
 export * from './app-router'
 export * from './dashboard'
-export * from './start'
+export * from './login-page'
