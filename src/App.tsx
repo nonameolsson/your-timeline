@@ -1,16 +1,13 @@
-function App(): JSX.Element {
+import { QueryClient, QueryClientProvider } from 'react-query'
+
+import { AppRouter } from './pages/app-router'
+
+const queryClient = new QueryClient()
+
+export function App(): JSX.Element {
   return (
-    <div>
-      <header>
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a href="https://reactjs.org" rel="noopener noreferrer" target="_blank">
-          Learn React
-        </a>
-      </header>
-    </div>
+    <QueryClientProvider client={queryClient}>
+      <AppRouter />
+    </QueryClientProvider>
   )
 }
-
-export default App
