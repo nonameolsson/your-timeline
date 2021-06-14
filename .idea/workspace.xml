@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dd975ee-49eb-4fe6-89fd-7735d8e9d674" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Work/cplan/cplan-web/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Work/cplan/cplan-web/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/yourtimeline.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yourtimeline.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +76,7 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="rest.client.default.execution.environment" value="test" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.rainbow.brackets" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -170,7 +165,8 @@
       <workItem from="1623681005934" duration="135000" />
       <workItem from="1623683300625" duration="2453000" />
       <workItem from="1623698802511" duration="91000" />
-      <workItem from="1623698899488" duration="479000" />
+      <workItem from="1623698899488" duration="556000" />
+      <workItem from="1623699474198" duration="82000" />
     </task>
     <task id="LOCAL-00001" summary="Add login and auth flow">
       <created>1623680014121</created>
@@ -179,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623680014121</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add input, label and button components">
+      <created>1623699417717</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1623699417717</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
