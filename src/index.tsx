@@ -1,5 +1,5 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import { render } from 'react-dom'
 
 import GlobalStyles from './styles/global-styles'
 import { App } from './App'
@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals'
 
 import './index.css'
 
-ReactDOM.render(
+render(
   <React.StrictMode>
     <GlobalStyles />
     <App />

@@ -1,3 +1,4 @@
-export * from './app-router'
-export * from './dashboard'
-export * from './login-page'
+export { AppRouter } from './app-router'
+export { Dashboard } from './dashboard'
+export { Login } from './login'
+export { NotFound } from './not-found'

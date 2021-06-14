@@ -1,6 +1,39 @@
+import { useState } from 'react'
+import { useMutation } from 'react-query'
+import { useHistory } from 'react-router-dom'
 import { LockClosedIcon } from '@heroicons/react/solid'
+import { Auth } from 'api/api'
+import { AuthResponse, Credentials, useAuthState } from 'context'
 
-export const LoginPage = (): JSX.Element => {
+import { PRIVATE_ROUTES } from 'config'
+
+const login = async (credentials: Credentials): Promise<AuthResponse> => {
+  return Auth.postLogin(credentials)
+}
+
+export const Login = (): JSX.Element => {
+  const history = useHistory()
+  const authState = useAuthState()
+
+  const { mutate, isLoading, error } = useMutation<AuthResponse, unknown, Credentials>(data => login(data), {
+    onSuccess: data => {
+      authState.logIn({ user: data.user, jwt: data.jwt })
+      history.push(PRIVATE_ROUTES.dashboard.path)
+    },
+    onError: () => {
+      console.error('error!')
+    },
+  })
+
+  const [email, setEmail] = useState('')
+  const [password, setPassword] = useState('')
+
+  async function handleLogin(e: React.MouseEvent<HTMLButtonElement>): Promise<void> {
+    e.preventDefault()
+
+    mutate({ identifier: email, password })
+  }
+
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md w-full space-y-8">
@@ -12,7 +45,8 @@ export const LoginPage = (): JSX.Element => {
           />
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">Sign in to your account</h2>
         </div>
-        <form action="#" className="mt-8 space-y-6" method="POST">
+        {error && <p className="text-red-500">Error!</p>}
+        <form className="mt-8 space-y-6">
           <input defaultValue="true" name="remember" type="hidden" />
           <div className="rounded-md shadow-sm -space-y-px">
             <div>
@@ -27,6 +61,8 @@ export const LoginPage = (): JSX.Element => {
                 name="email"
                 placeholder="Email address"
                 type="email"
+                value={email}
+                onChange={e => setEmail(e.target.value)}
               />
             </div>
             <div>
@@ -41,6 +77,8 @@ export const LoginPage = (): JSX.Element => {
                 name="password"
                 placeholder="Password"
                 type="password"
+                value={password}
+                onChange={e => setPassword(e.target.value)}
               />
             </div>
           </div>
@@ -67,8 +105,10 @@ export const LoginPage = (): JSX.Element => {
 
           <div>
             <button
-              className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+              className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 disabled:bg-indigo-200"
+              disabled={isLoading}
               type="submit"
+              onClick={handleLogin}
             >
               <span className="absolute left-0 inset-y-0 flex items-center pl-3">
                 <LockClosedIcon aria-hidden="true" className="h-5 w-5 text-indigo-500 group-hover:text-indigo-400" />

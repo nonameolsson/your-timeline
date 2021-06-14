@@ -1,13 +1,16 @@
 import { QueryClient, QueryClientProvider } from 'react-query'
+import { AuthStateProvider } from 'context'
 
-import { AppRouter } from './pages/app-router'
+import { AppRouter } from './pages'
 
 const queryClient = new QueryClient()
 
 export function App(): JSX.Element {
   return (
     <QueryClientProvider client={queryClient}>
-      <AppRouter />
+      <AuthStateProvider>
+        <AppRouter />
+      </AuthStateProvider>
     </QueryClientProvider>
   )
 }
