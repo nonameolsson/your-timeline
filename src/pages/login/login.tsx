@@ -74,26 +74,6 @@ export const Login = (): JSX.Element => {
             />
           </div>
 
-          <div className="flex items-center justify-between">
-            <div className="flex items-center">
-              <input
-                className="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
-                id="remember_me"
-                name="remember_me"
-                type="checkbox"
-              />
-              <label className="ml-2 block text-sm text-gray-900" htmlFor="remember_me">
-                Remember me
-              </label>
-            </div>
-
-            <div className="text-sm">
-              <a className="font-medium text-indigo-600 hover:text-indigo-500" href="#">
-                Forgot your password?
-              </a>
-            </div>
-          </div>
-
           <div>
             <Button disabled={isLoading} type="submit" onClick={handleLogin}>
               <span className="absolute left-0 inset-y-0 flex items-center pl-3">
