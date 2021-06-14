@@ -76,7 +76,7 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="rest.client.default.execution.environment" value="test" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.rainbow.brackets" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -166,7 +166,7 @@
       <workItem from="1623683300625" duration="2453000" />
       <workItem from="1623698802511" duration="91000" />
       <workItem from="1623698899488" duration="556000" />
-      <workItem from="1623699474198" duration="82000" />
+      <workItem from="1623699474198" duration="1802000" />
     </task>
     <task id="LOCAL-00001" summary="Add login and auth flow">
       <created>1623680014121</created>
@@ -182,7 +182,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623699417717</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="chore: Update webstorm config">
+      <created>1623699695332</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623699695332</updated>
+    </task>
+    <task id="LOCAL-00004" summary="chore: Update webstorm config">
+      <created>1623699763022</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1623699763022</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +206,9 @@
         <option value="$PROJECT_DIR$/src/context/authStateContext.d.ts" />
       </list>
     </option>
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -206,9 +223,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Add login and auth flow" />
     <MESSAGE value="Add input, label and button components" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add input, label and button components" />
+    <MESSAGE value="chore: Update webstorm config" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: Update webstorm config" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

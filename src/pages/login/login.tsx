@@ -6,6 +6,7 @@ import { Auth } from 'api/api'
 import { AuthResponse, Credentials, useAuthState } from 'context'
 
 import { Button, Input, Label } from 'components/atoms'
+import { TextInput } from 'components/molecules'
 import { PRIVATE_ROUTES } from 'config'
 
 const login = async (credentials: Credentials): Promise<AuthResponse> => {
@@ -50,35 +51,27 @@ export const Login = (): JSX.Element => {
         <form className="mt-8 space-y-6">
           <input defaultValue="true" name="remember" type="hidden" />
           <div className="rounded-md shadow-sm -space-y-px">
-            <div>
-              <Label htmlFor="email-address">Email address</Label>
-              <Input
-                required
-                autoComplete="email"
-                id="email-address"
-                name="email"
-                placeholder="Email address"
-                type="email"
-                value={email}
-                onChange={e => setEmail(e.target.value)}
-              />
-            </div>
-            <div>
-              <Label className="sr-only" htmlFor="password">
-                Password
-              </Label>
-
-              <Input
-                required
-                autoComplete="current-password"
-                id="password"
-                name="password"
-                placeholder="Password"
-                type="password"
-                value={password}
-                onChange={e => setPassword(e.target.value)}
-              />
-            </div>
+            <TextInput
+              autoComplete="email"
+              label="E-mail address"
+              name="email"
+              placeholder="E-mail address"
+              required={true}
+              type="email"
+              value={email}
+              onChange={e => setEmail(e.target.value)}
+            />
+            <TextInput
+              autoComplete="current-password"
+              hidden={true}
+              label="Password"
+              name="email"
+              placeholder="Password"
+              required={true}
+              type="password"
+              value={password}
+              onChange={e => setPassword(e.target.value)}
+            />
           </div>
 
           <div className="flex items-center justify-between">
