@@ -1,11 +1,7 @@
-import { InputHTMLAttributes } from 'react'
-
 import { Input, InputDescription, Label } from 'components/atoms'
 
-interface TextInputProps extends InputHTMLAttributes<HTMLInputElement> {
-  label?: string
-  description?: string
-}
+import { InputWrapper } from './text-input.styled'
+import { TextInputProps } from './text-input.types'
 
 export const TextInput = ({
   description,
@@ -22,7 +18,7 @@ export const TextInput = ({
   return (
     <div>
       {label && <Label htmlFor={name}>{label}</Label>}
-      <div className="mt-1">
+      <InputWrapper>
         <Input
           autoComplete={autoComplete}
           hidden={hidden}
@@ -34,7 +30,7 @@ export const TextInput = ({
           onChange={onChange}
           {...props}
         />
-      </div>
+      </InputWrapper>
       {description && <InputDescription text={description} />}
     </div>
   )

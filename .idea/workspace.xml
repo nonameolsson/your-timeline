@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dd975ee-49eb-4fe6-89fd-7735d8e9d674" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/input-description/input-description-props.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/yourtimeline.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yourtimeline.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/button/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/button/button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/input-description/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/input-description/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/input-description/input-description.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/input-description/input-description.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +45,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="3" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/get-requests.http" root0="SKIP_INSPECTION" />
@@ -76,7 +85,7 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="rest.client.default.execution.environment" value="test" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -166,7 +175,8 @@
       <workItem from="1623683300625" duration="2453000" />
       <workItem from="1623698802511" duration="91000" />
       <workItem from="1623698899488" duration="556000" />
-      <workItem from="1623699474198" duration="2323000" />
+      <workItem from="1623699474198" duration="2506000" />
+      <workItem from="1623740286108" duration="3360000" />
     </task>
     <task id="LOCAL-00001" summary="Add login and auth flow">
       <created>1623680014121</created>

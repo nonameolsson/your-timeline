@@ -1,11 +1,7 @@
 import { LabelHTMLAttributes } from 'react'
 
-type LabelProps = LabelHTMLAttributes<HTMLLabelElement>
+import { StyledLabel } from './label.styled'
 
-export const Label = ({ children, ...props }: LabelProps): JSX.Element => {
-  return (
-    <label className="block text-sm font-medium text-gray-700" {...props}>
-      {children}
-    </label>
-  )
+export const Label = ({ children, ...props }: LabelHTMLAttributes<HTMLLabelElement>): JSX.Element => {
+  return <StyledLabel {...props}>{children}</StyledLabel>
 }
