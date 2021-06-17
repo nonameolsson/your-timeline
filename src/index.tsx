@@ -1,6 +1,8 @@
 import React from 'react'
 import { render } from 'react-dom'
 
+import './config/i18n'
+
 import GlobalStyles from './styles/global-styles'
 import { App } from './App'
 import reportWebVitals from './reportWebVitals'

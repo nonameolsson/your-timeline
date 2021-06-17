@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import { useMutation } from 'react-query'
 import { useHistory } from 'react-router-dom'
 import { Auth } from 'api/api'
@@ -12,6 +13,7 @@ const login = async (credentials: Credentials): Promise<AuthResponse> => {
 }
 
 export const Login = (): JSX.Element => {
+  const { t } = useTranslation()
   const history = useHistory()
   const authState = useAuthState()
 
@@ -38,7 +40,7 @@ export const Login = (): JSX.Element => {
             className="mx-auto h-12 w-auto"
             src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
           />
-          <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">Sign in to your account</h2>
+          <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">{t('loginTitle')}</h2>
           <LoginForm error={isError} isLoading={isLoading} onSubmit={handleLogin} />
         </div>
       </div>
