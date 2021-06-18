@@ -64,7 +64,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TypeScript" />
     <property name="javascript.nodejs.core.library.configured.version" value="15.5.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="15.12.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/i18n" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -77,7 +77,7 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="rest.client.default.execution.environment" value="test" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="DotEnv.SettingsForm" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -169,6 +169,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="1dd975ee-49eb-4fe6-89fd-7735d8e9d674" name="Default Changelist" comment="" />
       <created>1623387157738</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -203,6 +204,7 @@
       <workItem from="1624002781572" duration="29000" />
       <workItem from="1624002980275" duration="9000" />
       <workItem from="1624003095403" duration="41000" />
+      <workItem from="1624021860327" duration="1624000" />
     </task>
     <task id="LOCAL-00001" summary="Add login and auth flow">
       <created>1623680014121</created>
@@ -247,7 +249,6 @@
     <option name="exactExcludedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/context/authStateContext.d.ts" />
-        <option value="$PROJECT_DIR$/src/config/i18n.d.ts" />
       </list>
     </option>
   </component>
