@@ -10,7 +10,7 @@
 
 # testing
 /coverage
-src/.jest-test-results.json
+src/jest-test-results.json
 
 # production
 /build

@@ -7,4 +7,4 @@ export default {
   component: InputDescription,
 } as Meta
 
-export const Default: React.FC = () => <InputDescription text={'I am a description'} />
+export const defaultView: React.FC = () => <InputDescription text={'I am a description'} />

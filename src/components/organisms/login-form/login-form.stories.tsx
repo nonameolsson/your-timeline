@@ -7,7 +7,7 @@ export default {
   component: LoginForm,
 } as Meta
 
-export const Default: React.FC = () => {
+export const defaultView: React.FC = () => {
   function onSubmit(email: string, password: string): Promise<void> {
     return new Promise((resolve, reject) => undefined)
   }

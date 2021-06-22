@@ -8,11 +8,6 @@ export default {
   component: Button,
 } as Meta
 
-export const Default = (): JSX.Element => <Button title="Button" />
+export const defaultView = (): JSX.Element => <Button>Button</Button>
 
-export const Disabled = (): JSX.Element => <Button disabled title="Disabled button" />
-
-export const defaultView = (): JSX.Element => <div>Jest results in storybook</div>
-defaultView.parameters = {
-  jest: ['button.test.tsx'],
-}
+export const disabled = (): JSX.Element => <Button disabled>Button</Button>

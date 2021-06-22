@@ -9,4 +9,4 @@ export default {
 
 const Template: Story = args => <Input {...args} />
 
-export const Primary = Template.bind({})
+export const defaultView = Template.bind({})

@@ -1,8 +1,8 @@
 {
-  "numFailedTestSuites": 2,
-  "numFailedTests": 7,
-  "numPassedTestSuites": 7,
-  "numPassedTests": 19,
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTestSuites": 9,
+  "numPassedTests": 26,
   "numPendingTestSuites": 0,
   "numPendingTests": 0,
   "numRuntimeErrorTestSuites": 0,
@@ -26,201 +26,191 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1624304481815,
-  "success": false,
+  "startTime": 1624349104236,
+  "success": true,
   "testResults": [
     {
       "assertionResults": [
         {
-          "ancestorTitles": [],
+          "ancestorTitles": ["Input"],
           "failureMessages": [],
-          "fullName": "should find the input description via testID",
-          "location": null,
-          "status": "passed",
-          "title": "should find the input description via testID"
-        },
-        {
-          "ancestorTitles": [],
-          "failureMessages": [],
-          "fullName": "should find the input description by text",
-          "location": null,
-          "status": "passed",
-          "title": "should find the input description by text"
-        }
-      ],
-      "endTime": 1624304489902,
-      "message": "",
-      "name": "/Users/andreasolsson/Code/GitHub/yourtimeline/src/components/atoms/input-description/input-description.test.tsx",
-      "startTime": 1624304485135,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": [],
-          "failureMessages": [],
-          "fullName": "should find the input description via testID",
-          "location": null,
-          "status": "passed",
-          "title": "should find the input description via testID"
-        },
-        {
-          "ancestorTitles": [],
-          "failureMessages": [],
-          "fullName": "should find the label by text content",
-          "location": null,
-          "status": "passed",
-          "title": "should find the label by text content"
-        }
-      ],
-      "endTime": 1624304490006,
-      "message": "",
-      "name": "/Users/andreasolsson/Code/GitHub/yourtimeline/src/components/atoms/label/label.test.tsx",
-      "startTime": 1624304485167,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": [],
-          "failureMessages": [],
-          "fullName": "should find the input via testID",
+          "fullName": "Input should find the input via testID",
           "location": null,
           "status": "passed",
           "title": "should find the input via testID"
         },
         {
-          "ancestorTitles": [],
+          "ancestorTitles": ["Input"],
           "failureMessages": [],
-          "fullName": "should have a placeholder",
+          "fullName": "Input should have a placeholder",
           "location": null,
           "status": "passed",
           "title": "should have a placeholder"
         },
         {
-          "ancestorTitles": [],
+          "ancestorTitles": ["Input"],
           "failureMessages": [],
-          "fullName": "should have a default value",
+          "fullName": "Input should have a default value",
           "location": null,
           "status": "passed",
           "title": "should have a default value"
         },
         {
-          "ancestorTitles": [],
+          "ancestorTitles": ["Input"],
           "failureMessages": [],
-          "fullName": "should be disabled",
+          "fullName": "Input should be disabled",
           "location": null,
           "status": "passed",
           "title": "should be disabled"
         },
         {
-          "ancestorTitles": [],
+          "ancestorTitles": ["Input"],
           "failureMessages": [],
-          "fullName": "should update input value",
+          "fullName": "Input should update input value",
           "location": null,
           "status": "passed",
           "title": "should update input value"
         }
       ],
-      "endTime": 1624304490333,
+      "endTime": 1624349109944,
       "message": "",
       "name": "/Users/andreasolsson/Code/GitHub/yourtimeline/src/components/atoms/input/input.test.tsx",
-      "startTime": 1624304485092,
+      "startTime": 1624349106825,
       "status": "passed",
       "summary": ""
     },
     {
       "assertionResults": [
         {
-          "ancestorTitles": [],
-          "failureMessages": [
-            "TestingLibraryElementError: Unable to find an element by: [data-testid=\"text-input\"]\n\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"sc-hKFxyN fQVlTA\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"sc-bdnxRM jKUgUH\"\u001b[39m\n          \u001b[33mdata-testid\u001b[39m=\u001b[32m\"input\"\u001b[39m\n          \u001b[33mvalue\u001b[39m=\u001b[32m\"\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n    at Object.getElementError (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/@testing-library/dom/dist/config.js:37:19)\n    at /Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/@testing-library/dom/dist/query-helpers.js:90:38\n    at /Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/@testing-library/dom/dist/query-helpers.js:62:17\n    at getByTestId (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)\n    at Object.<anonymous> (/Users/andreasolsson/Code/GitHub/yourtimeline/src/components/molecules/text-input/text-input.test.tsx:14:29)\n    at Promise.then.completed (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/utils.js:276:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/utils.js:216:10)\n    at _callCircusTest (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/run.js:212:40)\n    at processTicksAndRejections (node:internal/process/task_queues:93:5)\n    at _runTest (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/run.js:63:9)\n    at run (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-runner/build/runTest.js:472:34)\n    at Object.worker (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-runner/build/testWorker.js:133:12)"
-          ],
-          "fullName": "should find the text input via testID",
+          "ancestorTitles": ["TextInput"],
+          "failureMessages": [],
+          "fullName": "TextInput should find the text input via testID",
           "location": null,
-          "status": "failed",
+          "status": "passed",
           "title": "should find the text input via testID"
         },
         {
-          "ancestorTitles": [],
+          "ancestorTitles": ["TextInput"],
           "failureMessages": [],
-          "fullName": "should find the text input via text",
+          "fullName": "TextInput should find the text input via text",
           "location": null,
           "status": "passed",
           "title": "should find the text input via text"
         },
         {
-          "ancestorTitles": [],
-          "failureMessages": [
-            "TestingLibraryElementError: Found a label with the text of: I am the best label ever!, however no form control was found associated to that label. Make sure you're using the \"for\" attribute or \"aria-labelledby\" attribute correctly.\n\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div>\u001b[39m\n      \u001b[36m<label\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"sc-dlnjwi fFbKjZ\"\u001b[39m\n        \u001b[33mdata-testid\u001b[39m=\u001b[32m\"label\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[0mI am the best label ever!\u001b[0m\n      \u001b[36m</label>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"sc-hKFxyN fQVlTA\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"sc-bdnxRM jKUgUH\"\u001b[39m\n          \u001b[33mdata-testid\u001b[39m=\u001b[32m\"input\"\u001b[39m\n          \u001b[33mvalue\u001b[39m=\u001b[32m\"\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n    at Object.getElementError (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/@testing-library/dom/dist/config.js:37:19)\n    at getAllByLabelText (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/@testing-library/dom/dist/queries/label-text.js:116:40)\n    at /Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/@testing-library/dom/dist/query-helpers.js:62:17\n    at getByLabelText (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)\n    at Object.<anonymous> (/Users/andreasolsson/Code/GitHub/yourtimeline/src/components/molecules/text-input/text-input.test.tsx:33:29)\n    at Promise.then.completed (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/utils.js:276:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/utils.js:216:10)\n    at _callCircusTest (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/run.js:212:40)\n    at processTicksAndRejections (node:internal/process/task_queues:93:5)\n    at _runTest (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/run.js:63:9)\n    at run (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-runner/build/runTest.js:472:34)\n    at Object.worker (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-runner/build/testWorker.js:133:12)"
-          ],
-          "fullName": "should find the text input via label text",
+          "ancestorTitles": ["TextInput"],
+          "failureMessages": [],
+          "fullName": "TextInput should find the text input via label text",
           "location": null,
-          "status": "failed",
+          "status": "passed",
           "title": "should find the text input via label text"
         },
         {
-          "ancestorTitles": [],
+          "ancestorTitles": ["TextInput"],
           "failureMessages": [],
-          "fullName": "should have a description",
+          "fullName": "TextInput should have a description",
           "location": null,
           "status": "passed",
           "title": "should have a description"
         },
         {
-          "ancestorTitles": [],
-          "failureMessages": [
-            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoThrowError\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected substring: \u001b[32m\"Please add a name attribute when using a label\"\u001b[39m\n\nReceived function did not throw\n    at Object.<anonymous> (/Users/andreasolsson/Code/GitHub/yourtimeline/src/components/molecules/text-input/text-input.test.tsx:52:6)\n    at Promise.then.completed (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/utils.js:276:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/utils.js:216:10)\n    at _callCircusTest (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/run.js:212:40)\n    at processTicksAndRejections (node:internal/process/task_queues:93:5)\n    at _runTest (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/run.js:63:9)\n    at run (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-runner/build/runTest.js:472:34)\n    at Object.worker (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-runner/build/testWorker.js:133:12)"
-          ],
-          "fullName": "should throw an error if a label us used without a name attribute",
+          "ancestorTitles": ["TextInput"],
+          "failureMessages": [],
+          "fullName": "TextInput should throw an error if a label us used without a name attribute",
           "location": null,
-          "status": "failed",
+          "status": "passed",
           "title": "should throw an error if a label us used without a name attribute"
         },
         {
-          "ancestorTitles": [],
-          "failureMessages": [
-            "TestingLibraryElementError: Found a label with the text of: E-mail, however no form control was found associated to that label. Make sure you're using the \"for\" attribute or \"aria-labelledby\" attribute correctly.\n\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div>\u001b[39m\n      \u001b[36m<label\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"sc-dlnjwi fFbKjZ\"\u001b[39m\n        \u001b[33mdata-testid\u001b[39m=\u001b[32m\"label\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[0mE-mail\u001b[0m\n      \u001b[36m</label>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"sc-hKFxyN fQVlTA\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"sc-bdnxRM jKUgUH\"\u001b[39m\n          \u001b[33mdata-testid\u001b[39m=\u001b[32m\"input\"\u001b[39m\n          \u001b[33mvalue\u001b[39m=\u001b[32m\"\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<p\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"sc-gtsrHT bxXFvz\"\u001b[39m\n        \u001b[33mdata-testid\u001b[39m=\u001b[32m\"input-description\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[0mEnter yoru personal e-mail\u001b[0m\n      \u001b[36m</p>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n    at Object.getElementError (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/@testing-library/dom/dist/config.js:37:19)\n    at getAllByLabelText (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/@testing-library/dom/dist/queries/label-text.js:116:40)\n    at /Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/@testing-library/dom/dist/query-helpers.js:62:17\n    at getByLabelText (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)\n    at Object.<anonymous> (/Users/andreasolsson/Code/GitHub/yourtimeline/src/components/molecules/text-input/text-input.test.tsx:66:29)\n    at Promise.then.completed (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/utils.js:276:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/utils.js:216:10)\n    at _callCircusTest (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/run.js:212:40)\n    at processTicksAndRejections (node:internal/process/task_queues:93:5)\n    at _runTest (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/run.js:63:9)\n    at run (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-runner/build/runTest.js:472:34)\n    at Object.worker (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-runner/build/testWorker.js:133:12)"
-          ],
-          "fullName": "should have both label and description",
+          "ancestorTitles": ["TextInput"],
+          "failureMessages": [],
+          "fullName": "TextInput should have both label and description",
           "location": null,
-          "status": "failed",
+          "status": "passed",
           "title": "should have both label and description"
         },
         {
-          "ancestorTitles": [],
+          "ancestorTitles": ["TextInput"],
           "failureMessages": [],
-          "fullName": "should have a default value",
+          "fullName": "TextInput should have a default value",
           "location": null,
           "status": "passed",
           "title": "should have a default value"
         },
         {
-          "ancestorTitles": [],
+          "ancestorTitles": ["TextInput"],
           "failureMessages": [],
-          "fullName": "should be disabled",
+          "fullName": "TextInput should be disabled",
           "location": null,
           "status": "passed",
           "title": "should be disabled"
         },
         {
-          "ancestorTitles": [],
-          "failureMessages": [
-            "TestingLibraryElementError: Unable to find an element with the placeholder text of: placeholderText\n\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"sc-hKFxyN fQVlTA\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<input\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"sc-bdnxRM jKUgUH\"\u001b[39m\n          \u001b[33mdata-testid\u001b[39m=\u001b[32m\"input\"\u001b[39m\n          \u001b[33mvalue\u001b[39m=\u001b[32m\"\"\u001b[39m\n        \u001b[36m/>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n    at Object.getElementError (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/@testing-library/dom/dist/config.js:37:19)\n    at /Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/@testing-library/dom/dist/query-helpers.js:90:38\n    at /Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/@testing-library/dom/dist/query-helpers.js:62:17\n    at getByPlaceholderText (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)\n    at Object.<anonymous> (/Users/andreasolsson/Code/GitHub/yourtimeline/src/components/molecules/text-input/text-input.test.tsx:93:31)\n    at Promise.then.completed (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/utils.js:276:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/utils.js:216:10)\n    at _callCircusTest (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/run.js:212:40)\n    at processTicksAndRejections (node:internal/process/task_queues:93:5)\n    at _runTest (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/run.js:63:9)\n    at run (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-runner/build/runTest.js:472:34)\n    at Object.worker (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-runner/build/testWorker.js:133:12)"
-          ],
-          "fullName": "should update input value",
+          "ancestorTitles": ["TextInput"],
+          "failureMessages": [],
+          "fullName": "TextInput should update input value",
           "location": null,
-          "status": "failed",
+          "status": "passed",
           "title": "should update input value"
         }
       ],
-      "endTime": 1624304490815,
-      "message": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mshould find the text input via testID\u001b[39m\u001b[22m\n\n    TestingLibraryElementError: Unable to find an element by: [data-testid=\"text-input\"]\n\n    \u001b[36m<body>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<div>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-hKFxyN fQVlTA\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<input\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"sc-bdnxRM jKUgUH\"\u001b[39m\n              \u001b[33mdata-testid\u001b[39m=\u001b[32m\"input\"\u001b[39m\n              \u001b[33mvalue\u001b[39m=\u001b[32m\"\"\u001b[39m\n            \u001b[36m/>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n    \u001b[36m</body>\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 12 |\u001b[39m   render(\u001b[33m<\u001b[39m\u001b[33mTextInput\u001b[39m \u001b[33m/\u001b[39m\u001b[33m>\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 13 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 14 |\u001b[39m   \u001b[36mconst\u001b[39m foundInput \u001b[33m=\u001b[39m screen\u001b[33m.\u001b[39mgetByTestId(testID)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 15 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 16 |\u001b[39m   expect(foundInput)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 17 |\u001b[39m })\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.getElementError (\u001b[22m\u001b[2mnode_modules/@testing-library/dom/dist/config.js\u001b[2m:37:19)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[22m\u001b[2mnode_modules/@testing-library/dom/dist/query-helpers.js\u001b[2m:90:38\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[22m\u001b[2mnode_modules/@testing-library/dom/dist/query-helpers.js\u001b[2m:62:17\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat getByTestId (\u001b[22m\u001b[2mnode_modules/@testing-library/dom/dist/query-helpers.js\u001b[2m:111:19)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36msrc/components/molecules/text-input/text-input.test.tsx\u001b[39m\u001b[0m\u001b[2m:14:29)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mshould find the text input via label text\u001b[39m\u001b[22m\n\n    TestingLibraryElementError: Found a label with the text of: I am the best label ever!, however no form control was found associated to that label. Make sure you're using the \"for\" attribute or \"aria-labelledby\" attribute correctly.\n\n    \u001b[36m<body>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<div>\u001b[39m\n          \u001b[36m<label\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-dlnjwi fFbKjZ\"\u001b[39m\n            \u001b[33mdata-testid\u001b[39m=\u001b[32m\"label\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mI am the best label ever!\u001b[0m\n          \u001b[36m</label>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-hKFxyN fQVlTA\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<input\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"sc-bdnxRM jKUgUH\"\u001b[39m\n              \u001b[33mdata-testid\u001b[39m=\u001b[32m\"input\"\u001b[39m\n              \u001b[33mvalue\u001b[39m=\u001b[32m\"\"\u001b[39m\n            \u001b[36m/>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n    \u001b[36m</body>\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 31 |\u001b[39m   render(\u001b[33m<\u001b[39m\u001b[33mTextInput\u001b[39m label\u001b[33m=\u001b[39m{labelText} name\u001b[33m=\u001b[39m\u001b[32m\"testInput\"\u001b[39m \u001b[33m/\u001b[39m\u001b[33m>\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 32 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 33 |\u001b[39m   \u001b[36mconst\u001b[39m foundInput \u001b[33m=\u001b[39m screen\u001b[33m.\u001b[39mgetByLabelText(labelText)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 34 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 35 |\u001b[39m   expect(foundInput)\u001b[33m.\u001b[39mtoBeDefined()\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 36 |\u001b[39m })\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.getElementError (\u001b[22m\u001b[2mnode_modules/@testing-library/dom/dist/config.js\u001b[2m:37:19)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat getAllByLabelText (\u001b[22m\u001b[2mnode_modules/@testing-library/dom/dist/queries/label-text.js\u001b[2m:116:40)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[22m\u001b[2mnode_modules/@testing-library/dom/dist/query-helpers.js\u001b[2m:62:17\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat getByLabelText (\u001b[22m\u001b[2mnode_modules/@testing-library/dom/dist/query-helpers.js\u001b[2m:111:19)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36msrc/components/molecules/text-input/text-input.test.tsx\u001b[39m\u001b[0m\u001b[2m:33:29)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mshould throw an error if a label us used without a name attribute\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoThrowError\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\n    Expected substring: \u001b[32m\"Please add a name attribute when using a label\"\u001b[39m\n\n    Received function did not throw\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 50 |\u001b[39m   expect(() \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 51 |\u001b[39m     render(\u001b[33m<\u001b[39m\u001b[33mTextInput\u001b[39m label\u001b[33m=\u001b[39m{labelText} name\u001b[33m=\u001b[39m\u001b[32m\"myInput\"\u001b[39m \u001b[33m/\u001b[39m\u001b[33m>\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 52 |\u001b[39m   })\u001b[33m.\u001b[39mtoThrowError(\u001b[32m'Please add a name attribute when using a label'\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 53 |\u001b[39m })\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 54 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 55 |\u001b[39m it(\u001b[32m'should have both label and description'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36msrc/components/molecules/text-input/text-input.test.tsx\u001b[39m\u001b[0m\u001b[2m:52:6)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mshould have both label and description\u001b[39m\u001b[22m\n\n    TestingLibraryElementError: Found a label with the text of: E-mail, however no form control was found associated to that label. Make sure you're using the \"for\" attribute or \"aria-labelledby\" attribute correctly.\n\n    \u001b[36m<body>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<div>\u001b[39m\n          \u001b[36m<label\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-dlnjwi fFbKjZ\"\u001b[39m\n            \u001b[33mdata-testid\u001b[39m=\u001b[32m\"label\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mE-mail\u001b[0m\n          \u001b[36m</label>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-hKFxyN fQVlTA\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<input\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"sc-bdnxRM jKUgUH\"\u001b[39m\n              \u001b[33mdata-testid\u001b[39m=\u001b[32m\"input\"\u001b[39m\n              \u001b[33mvalue\u001b[39m=\u001b[32m\"\"\u001b[39m\n            \u001b[36m/>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n          \u001b[36m<p\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-gtsrHT bxXFvz\"\u001b[39m\n            \u001b[33mdata-testid\u001b[39m=\u001b[32m\"input-description\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mEnter yoru personal e-mail\u001b[0m\n          \u001b[36m</p>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n    \u001b[36m</body>\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 64 |\u001b[39m   expect(foundDescription)\u001b[33m.\u001b[39mtoHaveTextContent(descriptionText)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 65 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 66 |\u001b[39m   \u001b[36mconst\u001b[39m foundInput \u001b[33m=\u001b[39m screen\u001b[33m.\u001b[39mgetByLabelText(labelText)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 67 |\u001b[39m   expect(foundInput)\u001b[33m.\u001b[39mtoBeDefined()\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 68 |\u001b[39m })\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 69 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.getElementError (\u001b[22m\u001b[2mnode_modules/@testing-library/dom/dist/config.js\u001b[2m:37:19)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat getAllByLabelText (\u001b[22m\u001b[2mnode_modules/@testing-library/dom/dist/queries/label-text.js\u001b[2m:116:40)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[22m\u001b[2mnode_modules/@testing-library/dom/dist/query-helpers.js\u001b[2m:62:17\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat getByLabelText (\u001b[22m\u001b[2mnode_modules/@testing-library/dom/dist/query-helpers.js\u001b[2m:111:19)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36msrc/components/molecules/text-input/text-input.test.tsx\u001b[39m\u001b[0m\u001b[2m:66:29)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mshould update input value\u001b[39m\u001b[22m\n\n    TestingLibraryElementError: Unable to find an element with the placeholder text of: placeholderText\n\n    \u001b[36m<body>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<div>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-hKFxyN fQVlTA\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<input\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"sc-bdnxRM jKUgUH\"\u001b[39m\n              \u001b[33mdata-testid\u001b[39m=\u001b[32m\"input\"\u001b[39m\n              \u001b[33mvalue\u001b[39m=\u001b[32m\"\"\u001b[39m\n            \u001b[36m/>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n    \u001b[36m</body>\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 91 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 92 |\u001b[39m   render(\u001b[33m<\u001b[39m\u001b[33mTextInput\u001b[39m \u001b[33m/\u001b[39m\u001b[33m>\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 93 |\u001b[39m   \u001b[36mconst\u001b[39m inputElement \u001b[33m=\u001b[39m screen\u001b[33m.\u001b[39mgetByPlaceholderText(placeholderText)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 94 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 95 |\u001b[39m   userEvent\u001b[33m.\u001b[39mtype(inputElement\u001b[33m,\u001b[39m \u001b[32m'my@email.com'\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 96 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.getElementError (\u001b[22m\u001b[2mnode_modules/@testing-library/dom/dist/config.js\u001b[2m:37:19)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[22m\u001b[2mnode_modules/@testing-library/dom/dist/query-helpers.js\u001b[2m:90:38\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[22m\u001b[2mnode_modules/@testing-library/dom/dist/query-helpers.js\u001b[2m:62:17\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat getByPlaceholderText (\u001b[22m\u001b[2mnode_modules/@testing-library/dom/dist/query-helpers.js\u001b[2m:111:19)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36msrc/components/molecules/text-input/text-input.test.tsx\u001b[39m\u001b[0m\u001b[2m:93:31)\u001b[22m\u001b[2m\u001b[22m\n",
+      "endTime": 1624349110750,
+      "message": "",
       "name": "/Users/andreasolsson/Code/GitHub/yourtimeline/src/components/molecules/text-input/text-input.test.tsx",
-      "startTime": 1624304485169,
-      "status": "failed",
+      "startTime": 1624349106825,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Label"],
+          "failureMessages": [],
+          "fullName": "Label should find the input description via testID",
+          "location": null,
+          "status": "passed",
+          "title": "should find the input description via testID"
+        },
+        {
+          "ancestorTitles": ["Label"],
+          "failureMessages": [],
+          "fullName": "Label should find the label by text content",
+          "location": null,
+          "status": "passed",
+          "title": "should find the label by text content"
+        }
+      ],
+      "endTime": 1624349110927,
+      "message": "",
+      "name": "/Users/andreasolsson/Code/GitHub/yourtimeline/src/components/atoms/label/label.test.tsx",
+      "startTime": 1624349107550,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["InputDescription"],
+          "failureMessages": [],
+          "fullName": "InputDescription should find the input description via testID",
+          "location": null,
+          "status": "passed",
+          "title": "should find the input description via testID"
+        },
+        {
+          "ancestorTitles": ["InputDescription"],
+          "failureMessages": [],
+          "fullName": "InputDescription should find the input description by text",
+          "location": null,
+          "status": "passed",
+          "title": "should find the input description by text"
+        }
+      ],
+      "endTime": 1624349111040,
+      "message": "",
+      "name": "/Users/andreasolsson/Code/GitHub/yourtimeline/src/components/atoms/input-description/input-description.test.tsx",
+      "startTime": 1624349107645,
+      "status": "passed",
       "summary": ""
     },
     {
@@ -234,10 +224,10 @@
           "title": "renders without crashing"
         }
       ],
-      "endTime": 1624304491330,
+      "endTime": 1624349111231,
       "message": "",
       "name": "/Users/andreasolsson/Code/GitHub/yourtimeline/src/pages/dashboard/dashboard.test.tsx",
-      "startTime": 1624304485189,
+      "startTime": 1624349106825,
       "status": "passed",
       "summary": ""
     },
@@ -252,74 +242,70 @@
           "title": "renders without crashing"
         }
       ],
-      "endTime": 1624304491348,
+      "endTime": 1624349111334,
       "message": "",
       "name": "/Users/andreasolsson/Code/GitHub/yourtimeline/src/pages/login/login.test.tsx",
-      "startTime": 1624304485077,
+      "startTime": 1624349106914,
       "status": "passed",
       "summary": ""
     },
     {
       "assertionResults": [
         {
-          "ancestorTitles": [],
+          "ancestorTitles": ["Login form"],
           "failureMessages": [],
-          "fullName": "should find the login form input via testID",
+          "fullName": "Login form should find the login form input via testID",
           "location": null,
           "status": "passed",
           "title": "should find the login form input via testID"
         },
         {
-          "ancestorTitles": [],
-          "failureMessages": [
-            "TestingLibraryElementError: Found a label with the text of: email, however no form control was found associated to that label. Make sure you're using the \"for\" attribute or \"aria-labelledby\" attribute correctly.\n\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<form\u001b[39m\n      \u001b[33mclass\u001b[39m=\u001b[32m\"sc-eCApnc hkRuSK\"\u001b[39m\n      \u001b[33mdata-testid\u001b[39m=\u001b[32m\"login-form\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<label\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"sc-dlnjwi fFbKjZ\"\u001b[39m\n          \u001b[33mdata-testid\u001b[39m=\u001b[32m\"label\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0memail\u001b[0m\n        \u001b[36m</label>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"sc-hKFxyN fQVlTA\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<input\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-bdnxRM jKUgUH\"\u001b[39m\n            \u001b[33mdata-testid\u001b[39m=\u001b[32m\"input\"\u001b[39m\n            \u001b[33mplaceholder\u001b[39m=\u001b[32m\"my@email.com\"\u001b[39m\n            \u001b[33mvalue\u001b[39m=\u001b[32m\"\"\u001b[39m\n          \u001b[36m/>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<label\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"sc-dlnjwi fFbKjZ\"\u001b[39m\n          \u001b[33mdata-testid\u001b[39m=\u001b[32m\"label\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mpassword\u001b[0m\n        \u001b[36m</label>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"sc-hKFxyN fQVlTA\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<input\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-bdnxRM jKUgUH\"\u001b[39m\n            \u001b[33mdata-testid\u001b[39m=\u001b[32m\"input\"\u001b[39m\n            \u001b[33mplaceholder\u001b[39m=\u001b[32m\"Password\"\u001b[39m\n            \u001b[33mvalue\u001b[39m=\u001b[32m\"\"\u001b[39m\n          \u001b[36m/>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<button\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"buttonstyled__StyledButton-sc-1lhjgqv-0 hPViNZ\"\u001b[39m\n        \u001b[33mdata-testid\u001b[39m=\u001b[32m\"button\"\u001b[39m\n      \u001b[36m/>\u001b[39m\n    \u001b[36m</form>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n    at Object.getElementError (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/@testing-library/dom/dist/config.js:37:19)\n    at getAllByLabelText (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/@testing-library/dom/dist/queries/label-text.js:116:40)\n    at /Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/@testing-library/dom/dist/query-helpers.js:62:17\n    at getByLabelText (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)\n    at Object.<anonymous> (/Users/andreasolsson/Code/GitHub/yourtimeline/src/components/organisms/login-form/login-form.test.tsx:24:29)\n    at Promise.then.completed (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/utils.js:276:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/utils.js:216:10)\n    at _callCircusTest (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/run.js:212:40)\n    at processTicksAndRejections (node:internal/process/task_queues:93:5)\n    at _runTest (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/run.js:63:9)\n    at run (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-runner/build/runTest.js:472:34)\n    at Object.worker (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-runner/build/testWorker.js:133:12)"
-          ],
-          "fullName": "should have email and password input fields",
+          "ancestorTitles": ["Login form"],
+          "failureMessages": [],
+          "fullName": "Login form should have email and password input fields",
           "location": null,
-          "status": "failed",
+          "status": "passed",
           "title": "should have email and password input fields"
         },
         {
-          "ancestorTitles": [],
-          "failureMessages": [
-            "TestingLibraryElementError: Found a label with the text of: email, however no form control was found associated to that label. Make sure you're using the \"for\" attribute or \"aria-labelledby\" attribute correctly.\n\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<form\u001b[39m\n      \u001b[33mclass\u001b[39m=\u001b[32m\"sc-eCApnc hkRuSK\"\u001b[39m\n      \u001b[33mdata-testid\u001b[39m=\u001b[32m\"login-form\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<label\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"sc-dlnjwi fFbKjZ\"\u001b[39m\n          \u001b[33mdata-testid\u001b[39m=\u001b[32m\"label\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0memail\u001b[0m\n        \u001b[36m</label>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"sc-hKFxyN fQVlTA\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<input\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-bdnxRM jKUgUH\"\u001b[39m\n            \u001b[33mdata-testid\u001b[39m=\u001b[32m\"input\"\u001b[39m\n            \u001b[33mplaceholder\u001b[39m=\u001b[32m\"my@email.com\"\u001b[39m\n            \u001b[33mvalue\u001b[39m=\u001b[32m\"\"\u001b[39m\n          \u001b[36m/>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<label\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"sc-dlnjwi fFbKjZ\"\u001b[39m\n          \u001b[33mdata-testid\u001b[39m=\u001b[32m\"label\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mpassword\u001b[0m\n        \u001b[36m</label>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"sc-hKFxyN fQVlTA\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<input\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-bdnxRM jKUgUH\"\u001b[39m\n            \u001b[33mdata-testid\u001b[39m=\u001b[32m\"input\"\u001b[39m\n            \u001b[33mplaceholder\u001b[39m=\u001b[32m\"Password\"\u001b[39m\n            \u001b[33mvalue\u001b[39m=\u001b[32m\"\"\u001b[39m\n          \u001b[36m/>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<button\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"buttonstyled__StyledButton-sc-1lhjgqv-0 hPViNZ\"\u001b[39m\n        \u001b[33mdata-testid\u001b[39m=\u001b[32m\"button\"\u001b[39m\n      \u001b[36m/>\u001b[39m\n    \u001b[36m</form>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n    at Object.getElementError (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/@testing-library/dom/dist/config.js:37:19)\n    at getAllByLabelText (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/@testing-library/dom/dist/queries/label-text.js:116:40)\n    at /Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/@testing-library/dom/dist/query-helpers.js:62:17\n    at getByLabelText (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)\n    at Object.<anonymous> (/Users/andreasolsson/Code/GitHub/yourtimeline/src/components/organisms/login-form/login-form.test.tsx:34:29)\n    at Promise.then.completed (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/utils.js:276:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/utils.js:216:10)\n    at _callCircusTest (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/run.js:212:40)\n    at processTicksAndRejections (node:internal/process/task_queues:93:5)\n    at _runTest (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/run.js:63:9)\n    at run (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-runner/build/runTest.js:472:34)\n    at Object.worker (/Users/andreasolsson/Code/GitHub/yourtimeline/node_modules/jest-runner/build/testWorker.js:133:12)"
-          ],
-          "fullName": "should update email and password values",
+          "ancestorTitles": ["Login form"],
+          "failureMessages": [],
+          "fullName": "Login form should update email and password values",
           "location": null,
-          "status": "failed",
+          "status": "passed",
           "title": "should update email and password values"
         }
       ],
-      "endTime": 1624304491408,
-      "message": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mshould have email and password input fields\u001b[39m\u001b[22m\n\n    TestingLibraryElementError: Found a label with the text of: email, however no form control was found associated to that label. Make sure you're using the \"for\" attribute or \"aria-labelledby\" attribute correctly.\n\n    \u001b[36m<body>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<form\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"sc-eCApnc hkRuSK\"\u001b[39m\n          \u001b[33mdata-testid\u001b[39m=\u001b[32m\"login-form\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<div>\u001b[39m\n            \u001b[36m<label\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"sc-dlnjwi fFbKjZ\"\u001b[39m\n              \u001b[33mdata-testid\u001b[39m=\u001b[32m\"label\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[0memail\u001b[0m\n            \u001b[36m</label>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"sc-hKFxyN fQVlTA\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<input\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"sc-bdnxRM jKUgUH\"\u001b[39m\n                \u001b[33mdata-testid\u001b[39m=\u001b[32m\"input\"\u001b[39m\n                \u001b[33mplaceholder\u001b[39m=\u001b[32m\"my@email.com\"\u001b[39m\n                \u001b[33mvalue\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[36m/>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n          \u001b[36m<div>\u001b[39m\n            \u001b[36m<label\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"sc-dlnjwi fFbKjZ\"\u001b[39m\n              \u001b[33mdata-testid\u001b[39m=\u001b[32m\"label\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[0mpassword\u001b[0m\n            \u001b[36m</label>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"sc-hKFxyN fQVlTA\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<input\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"sc-bdnxRM jKUgUH\"\u001b[39m\n                \u001b[33mdata-testid\u001b[39m=\u001b[32m\"input\"\u001b[39m\n                \u001b[33mplaceholder\u001b[39m=\u001b[32m\"Password\"\u001b[39m\n                \u001b[33mvalue\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[36m/>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n          \u001b[36m<button\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"buttonstyled__StyledButton-sc-1lhjgqv-0 hPViNZ\"\u001b[39m\n            \u001b[33mdata-testid\u001b[39m=\u001b[32m\"button\"\u001b[39m\n          \u001b[36m/>\u001b[39m\n        \u001b[36m</form>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n    \u001b[36m</body>\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 22 |\u001b[39m   render(\u001b[33m<\u001b[39m\u001b[33mLoginForm\u001b[39m error\u001b[33m=\u001b[39m{\u001b[36mfalse\u001b[39m} isLoading\u001b[33m=\u001b[39m{\u001b[36mfalse\u001b[39m} onSubmit\u001b[33m=\u001b[39m{onSubmit} \u001b[33m/\u001b[39m\u001b[33m>\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 23 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 24 |\u001b[39m   \u001b[36mconst\u001b[39m emailInput \u001b[33m=\u001b[39m screen\u001b[33m.\u001b[39mgetByLabelText(\u001b[32m'email'\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 25 |\u001b[39m   \u001b[36mconst\u001b[39m passwordInput \u001b[33m=\u001b[39m screen\u001b[33m.\u001b[39mgetByLabelText(\u001b[32m'password'\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 26 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 27 |\u001b[39m   expect(emailInput)\u001b[33m.\u001b[39mtoBeDefined()\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.getElementError (\u001b[22m\u001b[2mnode_modules/@testing-library/dom/dist/config.js\u001b[2m:37:19)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat getAllByLabelText (\u001b[22m\u001b[2mnode_modules/@testing-library/dom/dist/queries/label-text.js\u001b[2m:116:40)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[22m\u001b[2mnode_modules/@testing-library/dom/dist/query-helpers.js\u001b[2m:62:17\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat getByLabelText (\u001b[22m\u001b[2mnode_modules/@testing-library/dom/dist/query-helpers.js\u001b[2m:111:19)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36msrc/components/organisms/login-form/login-form.test.tsx\u001b[39m\u001b[0m\u001b[2m:24:29)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mshould update email and password values\u001b[39m\u001b[22m\n\n    TestingLibraryElementError: Found a label with the text of: email, however no form control was found associated to that label. Make sure you're using the \"for\" attribute or \"aria-labelledby\" attribute correctly.\n\n    \u001b[36m<body>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<form\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"sc-eCApnc hkRuSK\"\u001b[39m\n          \u001b[33mdata-testid\u001b[39m=\u001b[32m\"login-form\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<div>\u001b[39m\n            \u001b[36m<label\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"sc-dlnjwi fFbKjZ\"\u001b[39m\n              \u001b[33mdata-testid\u001b[39m=\u001b[32m\"label\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[0memail\u001b[0m\n            \u001b[36m</label>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"sc-hKFxyN fQVlTA\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<input\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"sc-bdnxRM jKUgUH\"\u001b[39m\n                \u001b[33mdata-testid\u001b[39m=\u001b[32m\"input\"\u001b[39m\n                \u001b[33mplaceholder\u001b[39m=\u001b[32m\"my@email.com\"\u001b[39m\n                \u001b[33mvalue\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[36m/>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n          \u001b[36m<div>\u001b[39m\n            \u001b[36m<label\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"sc-dlnjwi fFbKjZ\"\u001b[39m\n              \u001b[33mdata-testid\u001b[39m=\u001b[32m\"label\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[0mpassword\u001b[0m\n            \u001b[36m</label>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"sc-hKFxyN fQVlTA\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<input\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"sc-bdnxRM jKUgUH\"\u001b[39m\n                \u001b[33mdata-testid\u001b[39m=\u001b[32m\"input\"\u001b[39m\n                \u001b[33mplaceholder\u001b[39m=\u001b[32m\"Password\"\u001b[39m\n                \u001b[33mvalue\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[36m/>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n          \u001b[36m<button\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"buttonstyled__StyledButton-sc-1lhjgqv-0 hPViNZ\"\u001b[39m\n            \u001b[33mdata-testid\u001b[39m=\u001b[32m\"button\"\u001b[39m\n          \u001b[36m/>\u001b[39m\n        \u001b[36m</form>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n    \u001b[36m</body>\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 32 |\u001b[39m   render(\u001b[33m<\u001b[39m\u001b[33mLoginForm\u001b[39m error\u001b[33m=\u001b[39m{\u001b[36mfalse\u001b[39m} isLoading\u001b[33m=\u001b[39m{\u001b[36mfalse\u001b[39m} onSubmit\u001b[33m=\u001b[39m{onSubmit} \u001b[33m/\u001b[39m\u001b[33m>\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 33 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 34 |\u001b[39m   \u001b[36mconst\u001b[39m emailInput \u001b[33m=\u001b[39m screen\u001b[33m.\u001b[39mgetByLabelText(\u001b[32m'email'\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 35 |\u001b[39m   \u001b[36mconst\u001b[39m passwordInput \u001b[33m=\u001b[39m screen\u001b[33m.\u001b[39mgetByLabelText(\u001b[32m'password'\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 36 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 37 |\u001b[39m   userEvent\u001b[33m.\u001b[39mtype(emailInput\u001b[33m,\u001b[39m \u001b[32m'my@email.com'\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.getElementError (\u001b[22m\u001b[2mnode_modules/@testing-library/dom/dist/config.js\u001b[2m:37:19)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat getAllByLabelText (\u001b[22m\u001b[2mnode_modules/@testing-library/dom/dist/queries/label-text.js\u001b[2m:116:40)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[22m\u001b[2mnode_modules/@testing-library/dom/dist/query-helpers.js\u001b[2m:62:17\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat getByLabelText (\u001b[22m\u001b[2mnode_modules/@testing-library/dom/dist/query-helpers.js\u001b[2m:111:19)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36msrc/components/organisms/login-form/login-form.test.tsx\u001b[39m\u001b[0m\u001b[2m:34:29)\u001b[22m\u001b[2m\u001b[22m\n",
+      "endTime": 1624349111563,
+      "message": "",
       "name": "/Users/andreasolsson/Code/GitHub/yourtimeline/src/components/organisms/login-form/login-form.test.tsx",
-      "startTime": 1624304485150,
-      "status": "failed",
+      "startTime": 1624349107549,
+      "status": "passed",
       "summary": ""
     },
     {
       "assertionResults": [
         {
-          "ancestorTitles": [],
+          "ancestorTitles": ["Button"],
           "failureMessages": [],
-          "fullName": "should find the button via testID",
+          "fullName": "Button should find the button via testID",
           "location": null,
           "status": "passed",
           "title": "should find the button via testID"
         },
         {
-          "ancestorTitles": [],
+          "ancestorTitles": ["Button"],
           "failureMessages": [],
-          "fullName": "should have a text",
+          "fullName": "Button should have a text",
           "location": null,
           "status": "passed",
           "title": "should have a text"
         }
       ],
-      "endTime": 1624304491460,
+      "endTime": 1624349111568,
       "message": "",
       "name": "/Users/andreasolsson/Code/GitHub/yourtimeline/src/components/atoms/button/button.test.tsx",
-      "startTime": 1624304490206,
+      "startTime": 1624349110831,
       "status": "passed",
       "summary": ""
     },
@@ -334,10 +320,10 @@
           "title": "renders without crashing"
         }
       ],
-      "endTime": 1624304492128,
+      "endTime": 1624349111937,
       "message": "",
       "name": "/Users/andreasolsson/Code/GitHub/yourtimeline/src/App.test.tsx",
-      "startTime": 1624304490064,
+      "startTime": 1624349110171,
       "status": "passed",
       "summary": ""
     }

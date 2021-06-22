@@ -7,4 +7,4 @@ export default {
   component: Label,
 } as Meta
 
-export const Default: React.FC = () => <Label>I am a label</Label>
+export const defaultView: React.FC = () => <Label>I am a label</Label>
