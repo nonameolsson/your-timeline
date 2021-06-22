@@ -19,7 +19,7 @@ export const LoginForm = ({ error, onSubmit, isLoading }: LoginFormProps): JSX.E
   }
 
   return (
-    <StyledForm>
+    <StyledForm data-testid="login-form">
       <TextInput
         autoComplete="email"
         label={t('email')}
@@ -34,7 +34,7 @@ export const LoginForm = ({ error, onSubmit, isLoading }: LoginFormProps): JSX.E
         autoComplete="current-password"
         hidden={true}
         label={t('password')}
-        name="email"
+        name="password"
         placeholder="Password"
         required={true}
         type="password"
