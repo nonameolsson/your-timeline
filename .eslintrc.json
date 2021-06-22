@@ -1,6 +1,8 @@
 {
   "parser": "@typescript-eslint/parser",
   "extends": [
+    "react-app",
+    "react-app/jest",
     "plugin:compat/recommended",
     "plugin:react-perf/recommended",
     "plugin:jest/recommended",
@@ -24,7 +26,8 @@
     "react-hooks",
     "react",
     "react-perf",
-    "no-secrets"
+    "no-secrets",
+    "testing-library"
   ],
   "parserOptions": {
     "sourceType": "module", // Allows for the use of imports
@@ -116,13 +119,23 @@
     "react-perf/jsx-no-new-function-as-prop": "warn", // TODO: bör vara "error"
     "react-perf/jsx-no-new-array-as-prop": "warn", // TODO: bör vara "error"
     "react/jsx-uses-react": "off",
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "testing-library/await-async-query": "error",
+    "testing-library/no-await-sync-query": "error",
+    "testing-library/no-debug": "warn",
+    "testing-library/no-dom-import": "off"
   },
   "overrides": [
     {
       "files": ["*.test.ts", "*.test.tsx"],
       "rules": {
         "react-perf/jsx-no-new-function-as-prop": "off"
+      }
+    },
+    {
+      "files": ["**/*.stories.*"],
+      "rules": {
+        "import/no-anonymous-default-export": "off"
       }
     }
   ]

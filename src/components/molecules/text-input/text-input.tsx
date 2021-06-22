@@ -11,24 +11,31 @@ export const TextInput = ({
   label,
   autoComplete,
   placeholder,
+  value,
+  disabled,
   name,
+  inputName,
   hidden,
-  ...props
 }: TextInputProps): JSX.Element => {
+  if (label && !name) throw new Error('Please add a name attribute when using a label')
+
   return (
-    <div>
+    <div data-testid="text-input">
       {label && <Label htmlFor={name}>{label}</Label>}
       <InputWrapper>
         <Input
           autoComplete={autoComplete}
+          disabled={disabled}
           hidden={hidden}
-          name={name}
+          id={name}
+          name={inputName || name}
           placeholder={placeholder}
           required={required}
+          role="text-input"
           type="text"
+          value={value}
           onBlur={onBlur}
           onChange={onChange}
-          {...props}
         />
       </InputWrapper>
       {description && <InputDescription text={description} />}

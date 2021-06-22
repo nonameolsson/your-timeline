@@ -1,38 +1,18 @@
 import React from 'react'
-import { Meta, Story } from '@storybook/react'
+import { Meta } from '@storybook/react'
 
 import { Button } from './button'
-import { ButtonProps } from './button.types'
 
 export default {
-  title: 'Example/Button',
+  title: 'Atoms/Button',
   component: Button,
-  argTypes: {
-    backgroundColor: { control: 'color' },
-  },
 } as Meta
 
-const Template: Story<ButtonProps> = args => <Button {...args} />
+export const Default = (): JSX.Element => <Button title="Button" />
 
-export const Primary = Template.bind({})
-Primary.args = {
-  primary: true,
-  label: 'Button',
-}
+export const Disabled = (): JSX.Element => <Button disabled title="Disabled button" />
 
-export const Secondary = Template.bind({})
-Secondary.args = {
-  label: 'Button',
-}
-
-export const Large = Template.bind({})
-Large.args = {
-  size: 'large',
-  label: 'Button',
-}
-
-export const Small = Template.bind({})
-Small.args = {
-  size: 'small',
-  label: 'Button',
+export const defaultView = (): JSX.Element => <div>Jest results in storybook</div>
+defaultView.parameters = {
+  jest: ['button.test.tsx'],
 }
